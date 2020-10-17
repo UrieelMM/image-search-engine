@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.container-fluid {
+  padding: 0 !important;
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron {
+  background-image: linear-gradient(to right, #cf5890 0%, #64578f 100%);
+  border-radius: 0 0 10px 10px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.jumbotron h1 {
   color: white;
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.jumbotron p {
+  font-size: 28px;
+  color: white;
+  margin-top: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btns-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns-pagination button {
+  margin: 0 20px 40px 20px;
+  background-image: linear-gradient(to right, #930b4e 0%, #000346 100%);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 50px;
+  box-shadow: 5px 5px 20px #930b4e;
+}
+.btns-pagination button:hover {
+  background-image: linear-gradient(to right, #bb1166 0%, #01077c 100%);
+  box-shadow: 5px 5px 20px #bb1166;
+}
+.leyenda {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leyenda p {
+  font-size: 48px;
+  color: rgb(197, 194, 194);
+}
+@media (max-width: 425px) {
+  .jumbotron h1 {
+    font-size: 28px;
   }
-  to {
-    transform: rotate(360deg);
+  .jumbotron p {
+    font-size: 22px;
+  }
+  .leyenda p {
+    font-size: 28px;
+  }
+  .leyenda p span {
+    font-size: 22px;
   }
 }

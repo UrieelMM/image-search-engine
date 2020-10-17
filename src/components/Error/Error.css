@@ -1,0 +1,6 @@
+.alert {
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #bb1166 0%, #01077c 100%);
+  color: white;
+  border: none;
+}

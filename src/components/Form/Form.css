@@ -1,0 +1,20 @@
+.container-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-submit {
+  background-image: linear-gradient(to right, #930b4e 0%, #000346 100%);
+  border: none;
+  color: white;
+  box-shadow: 5px 5px 20px #930b4e;
+}
+.btn-submit:hover {
+  background-image: linear-gradient(to right, #bb1166 0%, #01077c 100%);
+  box-shadow: 5px 5px 20px #bb1166;
+}
+.btn-submit:focus {
+  color: white;
+}

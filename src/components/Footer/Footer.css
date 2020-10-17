@@ -1,0 +1,21 @@
+footer {
+  background-image: linear-gradient(to right, #cf5890 0%, #64578f 100%);
+  color: white;
+  padding: 40px 0;
+  border-top: 5px solid #bb1166;
+}
+.footer-texts p {
+  text-align: center;
+  font-size: 22px;
+}
+.footer-texts p span {
+  font-size: 18px;
+}
+@media (max-width: 425px) {
+  .footer-texts p {
+    font-size: 14px;
+  }
+  .footer-texts p span {
+    font-size: 12px;
+  }
+}
